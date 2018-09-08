@@ -97,8 +97,10 @@ CREATE TABLE `oauth_client_details` (
 -- Records of oauth_client_details
 -- ----------------------------
 INSERT INTO `oauth_client_details` VALUES ('apple', 'product_api', 'secret', 'read,write,trust', 'password,refresh_token', '', 'ROLE_ADMIN', '2000', null, '{}', '');
+INSERT INTO `oauth_client_details` VALUES ('banana', 'product_api', 'secret', 'read,write,trust', 'implicit,refresh_token', 'http://baidu.com', 'ROLE_ADMIN', '2000', null, '{}', '');
 INSERT INTO `oauth_client_details` VALUES ('client', 'product_api', 'secret', 'read,write,trust', 'client_credentials,refresh_token', '', 'ROLE_ADMIN', '2000', null, '{}', '');
 INSERT INTO `oauth_client_details` VALUES ('pair', 'product_api', 'secret', 'read,write,trust', 'authorization_code,refresh_token', 'http://baidu.com', 'ROLE_ADMIN', '2000', null, '{}', '');
+
 
 -- ----------------------------
 -- Table structure for oauth_client_token
