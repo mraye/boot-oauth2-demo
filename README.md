@@ -52,7 +52,7 @@ POST请求:
 `http://localhost:8080/oauth/token?grant_type=authorization_code&code=N3EKeu&client_id=pair&client_secret=secret&redirect_uri=http://baidu.com`
 
 
-![access_confirm](https://github.com/mraye/boot-oauth2-demo/raw/master/screenshots/login.png.png)
+![login](https://github.com/mraye/boot-oauth2-demo/raw/master/screenshots/login.png)
 
 ![access_confirm](https://github.com/mraye/boot-oauth2-demo/raw/master/screenshots/access_confirm.png)
 
