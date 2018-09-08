@@ -1,5 +1,6 @@
 spring:
   datasource:
+#   mysql-connector-java 6之后replication和普通Driver合并
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/oauth2?useSSL=false&serverTimezone=UTC
     username: root
@@ -9,6 +10,8 @@ spring:
 #      driver-class-name: com.mysql.cj.jdbc.Driver
 #      username: root
 #      password: 111111
+
+# 修改jsp文件之后可以立即生效
 server:
   port: 8080
   servlet:
