@@ -11,7 +11,8 @@ oauth2认证模式分为:
 
 ## client_credentials
 
-**`client_credentials`是唯一一种不需要用户信息(Resource Owner)的认证方式**
+**`client_credentials`是唯一一种不需要用户信息(Resource Owner)的认证方式**  
+
 POST请求:  
 
 `http://localhost:8080/oauth/token?grant_type=client_credentials&client_id=client&client_secret=secret`
@@ -48,6 +49,8 @@ POST请求:
 `http://localhost:8080/oauth/authorize?response_type=code&client_id=pair&redirect_uri=http://baidu.com`
 
 2. 获取access_token
+
+POST请求:  
 
 `http://localhost:8080/oauth/token?grant_type=authorization_code&code=N3EKeu&client_id=pair&client_secret=secret&redirect_uri=http://baidu.com`
 
