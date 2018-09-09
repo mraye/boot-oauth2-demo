@@ -15,7 +15,7 @@ public class HomeController {
 
     @RequestMapping("/accessDeny")
     public String accessDeny(){
-        return "accessDeny";
+        return "access_deny";
     }
 
     @RequestMapping("/confirm_access")
